@@ -5,8 +5,8 @@ body{
 
 h1 , h2{
     font-family: 'Bebas Neue', cursive;
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .navbar nav{
@@ -38,7 +38,6 @@ p{
     height: 20px;
     width: 420px;
     font-weight: bold;
-
 }
 
 .color-highlight{
@@ -59,7 +58,7 @@ p{
 }
 
 
-.first-paragraph{
+.first-heading{
     padding: 10%;
     color: #202020;
 
@@ -80,7 +79,6 @@ p{
 
 .half-height{
     height: 50%;
-    
 }
 
 .profile-pic{
@@ -92,12 +90,12 @@ p{
     font-weight: bold;
 }
 
-.second-paragraph{
+.second-heading{
     padding: 10%;
     margin-left: 20%;
     font-weight: normal;
-font-size: 16px;
-color: #202020;
+    font-size: 16px;
+    color: #202020;
 }
 
 .half-height p{
@@ -111,7 +109,7 @@ color: #202020;
 
 .picture{
     width: 315.54px;
-height: 200.23px;
+    height: 200.23px;
 } 
 
 .work-project{
@@ -127,7 +125,6 @@ height: 200.23px;
     font-size: 36px;
     line-height: 48px;
     color: tomato;
-    
 }
 
 #work-pro{
@@ -169,7 +166,6 @@ height: 200.23px;
 
 .container p{
     text-align: center;
-    
 }
 
 .container{
@@ -232,7 +228,7 @@ button{
     margin: 15px;
 }
 
-          /* footer section */
+           /* footer section */
 
 
 
@@ -304,7 +300,7 @@ footer{
     padding-left: 8px;
 }
 
-#credit{
+#author{
     font-weight: 600;
     font-family: cursive;
     font-size: 12px;

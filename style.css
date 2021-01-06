@@ -1,6 +1,7 @@
 body{
     height: 2500px;
 }
+/* top section navbar*/
 
 h1 , h2{
     font-family: 'Bebas Neue', cursive;
@@ -29,6 +30,21 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
+/* hello and about section */
+
+
+#name{
+    font-size: 50px;
+    height: 20px;
+    width: 420px;
+    font-weight: bold;
+
+}
+
+.color-highlight{
+    color: #FC8E75;
+    font-size: 50px;
+}
 
 .button{
     text-decoration: none;
@@ -42,18 +58,6 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
-.color-highlight{
-    color: #FC8E75;
-    font-size: 50px;
-}
-
-#name{
-    font-size: 50px;
-    height: 20px;
-    width: 420px;
-    font-weight: bold;
-
-}
 
 .first-paragraph{
     padding: 10%;
@@ -101,16 +105,14 @@ color: #202020;
     font-size: 16px;
     color:#3E3E3E;
 }
+      
 
-.pic-head{
-    font-family: 'Roboto', sans-serif;
-    color:#363958;
+      /* latest work project section */
 
-}
-
-.pic-details{
-    color: #6C6C6C;
-}
+.picture{
+    width: 315.54px;
+height: 200.23px;
+} 
 
 .work-project{
     margin: 0;
@@ -135,19 +137,20 @@ color: #202020;
      font-weight: 700;
 }
 
+.pic-head{
+    font-family: 'Roboto', sans-serif;
+    color:#363958;
+}
+
+.pic-details{
+    color: #6C6C6C;
+}
+     
 .work-head{
     text-align: center;
     margin-bottom: 30px;
 }
 
-.project-img{
-    
-}
-
-.picture{
-    width: 315.54px;
-height: 200.23px;
-} 
 
 .project-work-box{
     box-shadow: 10px 10px 40px rgb(119, 83, 83);
@@ -175,6 +178,8 @@ height: 200.23px;
 
 
 /* contact form section */
+
+
 .text{
     text-align: center;
     font-size: 30px;
@@ -192,13 +197,16 @@ height: 200.23px;
     margin-left: 425px;
     
 }
+
 form{
     margin: 35px;
 }
+
 .contact-form-section{
     background-color: #ddcbcb;
     height: 600px;
 }
+
 .input-field{
     width: 400px;
     height: 40px ;
@@ -208,10 +216,12 @@ form{
     border: 1px solid #777;
     border-radius: 14px;
 }
+
 .text-field{
     height: 150px;
     padding: 10px;
 }
+
 button{
     padding: 7px;
     margin: 5px;
@@ -222,14 +232,10 @@ button{
     margin: 15px;
 }
 
+          /* footer section */
 
 
 
-
-
-
-
-/* footer section */
 .footer-background{
     width: 906px;
     height: 225px;
@@ -239,6 +245,7 @@ button{
     margin: auto;
     border-radius: 30px;
 }
+
 #footer-background-text{
     text-align: left;
     float: left;
@@ -246,13 +253,26 @@ button{
     margin: 70px;
     color: white;
 }
+
+.button-link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #1a0d00 , #ff8000);
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-weight: 700;
+    color: rgb(8, 5, 37);
+    width: 260px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
 #footer-background-btn{
     text-align: right;
     float: left;
     width: 30%;
-    margin: 88.5px;
-    
+    margin: 88.5px; 
 }
+
 footer{
     text-align: center;
     margin-top: 100px ;
@@ -267,23 +287,25 @@ footer{
     text-align: center;
     font-family: "Roboto";
     font-style: normal;
-     font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-
-color: #363958;}
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+}
 
 #icons{
     float: left;
     width: 100%;
 }
-/* #credit{
-    font-size: 15px;
-} */
-
 
 .icon{
     height: 40px;
     width: 40px;
     padding-left: 8px;
+}
+
+#credit{
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 12px;
 }

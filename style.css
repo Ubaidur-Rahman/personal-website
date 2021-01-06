@@ -1,0 +1,289 @@
+body{
+    height: 2500px;
+}
+
+h1 , h2{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+
+.navbar nav{
+    margin-left: 879px;
+    width: 319px;
+    height: 24px;
+    margin-top: 35px;
+    margin-right: 142px;
+    margin-bottom: 20px;
+}
+
+.navbar nav a{
+    text-decoration: none;
+    color: #484848;
+    padding-left: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #21A0BA , #534DC2);
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    width: 260px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-highlight{
+    color: #FC8E75;
+    font-size: 50px;
+}
+
+#name{
+    font-size: 50px;
+    height: 20px;
+    width: 420px;
+    font-weight: bold;
+
+}
+
+.first-paragraph{
+    padding: 10%;
+    color: #202020;
+
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    display: block;
+}
+
+.hello-about{
+    height: 950px;
+    margin-bottom: 80px;
+    display: block;
+}
+
+.half-height{
+    height: 50%;
+    
+}
+
+.profile-pic{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#about{
+    font-weight: bold;
+}
+
+.second-paragraph{
+    padding: 10%;
+    margin-left: 20%;
+    font-weight: normal;
+font-size: 16px;
+color: #202020;
+}
+
+.half-height p{
+    font-weight: 400;
+    font-size: 16px;
+    color:#3E3E3E;
+}
+
+.pic-head{
+    font-family: 'Roboto', sans-serif;
+    color:#363958;
+
+}
+
+.pic-details{
+    color: #6C6C6C;
+}
+
+.work-project{
+    margin: 0;
+    background-color: rgb(216, 215, 215);
+    height: 450px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+#latest{
+    font-size: 36px;
+    line-height: 48px;
+    color: tomato;
+    
+}
+
+#work-pro{
+     font-size: 36px;
+     line-height: 48px;
+     color: rgb(10, 3, 78);
+     font-weight: 700;
+}
+
+.work-head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-img{
+    
+}
+
+.picture{
+    width: 315.54px;
+height: 200.23px;
+} 
+
+.project-work-box{
+    box-shadow: 10px 10px 40px rgb(119, 83, 83);
+    border-radius: 10px;
+    height: 80%;
+    background-color: rgb(233, 219, 219) ;
+    width: 26%;
+    float: left;
+    margin-left: 3%;
+    padding: 1%;
+}
+
+.container h3{
+    text-align: center;
+}
+
+.container p{
+    text-align: center;
+    
+}
+
+.container{
+    margin-left: 50px;
+}
+
+
+/* contact form section */
+.text{
+    text-align: center;
+    font-size: 30px;
+    color: chocolate;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.contact-box{
+    width: 500px;
+    background-color: 
+    rgb(224, 233, 212);
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 rgb(36, 22, 22);
+    margin-left: 425px;
+    
+}
+form{
+    margin: 35px;
+}
+.contact-form-section{
+    background-color: #ddcbcb;
+    height: 600px;
+}
+.input-field{
+    width: 400px;
+    height: 40px ;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+}
+.text-field{
+    height: 150px;
+    padding: 10px;
+}
+button{
+    padding: 7px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(226, 226, 226);
+    background-color: rgb(10, 10, 29);
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+/* footer section */
+.footer-background{
+    width: 906px;
+    height: 225px;
+    background-image: url(images/work.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: auto;
+    border-radius: 30px;
+}
+#footer-background-text{
+    text-align: left;
+    float: left;
+    width: 35%;
+    margin: 70px;
+    color: white;
+}
+#footer-background-btn{
+    text-align: right;
+    float: left;
+    width: 30%;
+    margin: 88.5px;
+    
+}
+footer{
+    text-align: center;
+    margin-top: 100px ;
+}
+
+#connected{
+       color: #696871;
+       font-size: 24px;
+}
+
+#email{
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+     font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: #363958;}
+
+#icons{
+    float: left;
+    width: 100%;
+}
+/* #credit{
+    font-size: 15px;
+} */
+
+
+.icon{
+    height: 40px;
+    width: 40px;
+    padding-left: 8px;
+}
